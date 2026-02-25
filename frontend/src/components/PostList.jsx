@@ -2,7 +2,7 @@ import PostCard from './PostCard';
 
 function PostList({ posts }) {
   if (!posts.length) {
-    return <p>No published posts found.</p>;
+    return <p className="muted">No posts yet. Create your first one to see it here.</p>;
   }
 
   return (
